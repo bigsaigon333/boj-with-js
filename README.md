@@ -6,3 +6,6 @@
 방대한 BOJ문제들 중 바킹독이 엄선한 문제들인 `BaaaaaaaaaaarkingDog의 실전 알고리즘` 그룹의 문제집에 등재된 문제를 우선적으로 풀고 있습니다.<br>
 (※바킹독 블로그: [BaaaaaaaarkingDog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2))
 
+
+### 문제집: 0x05강 - BFS, DFS_구버전
+- [x] 5014	 Elevator Trouble: 2020-12-29 Tue
