@@ -3,84 +3,73 @@
  * URL: https://www.acmicpc.net/problem/6593
  * Comment:BFS. 3차원의 입력을 처리하는 것이 조금 까다로웠다. 문제풀이 자체는 전형적인 BFS.
  */
-
-const { exit } = require("process");
-
+"use strict";
 const getLine = (() => {
-  const reversedInputArray = require("fs")
-    .readFileSync("/dev/stdin")
-    .toString()
-    .split("\n")
-    .reverse();
+  const input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
+  let index = 0;
 
-  return () => reversedInputArray.pop();
+  return () => input[index++];
 })();
 
 while (true) {
+  // Read Input
   const [L, R, C] = getLine()
     .split(" ")
     .map((str) => Number(str));
   // console.log(`L: ${L} R: ${R} C: ${C}`);
 
-  if (L === 0 && R === 0 && C === 0) exit(0);
+  if (L === 0 && R === 0 && C === 0) return;
 
   const maze = Array(L)
     .fill(0)
     .map(() => Array(R).fill(0));
-  let start = { x: 0, y: 0, z: 0 };
-  let end = { x: 0, y: 0, z: 0 };
+  let start;
 
   for (let li = 0; li < L; li++) {
     for (let ri = 0; ri < R; ri++) {
       maze[li][ri] = getLine().split("");
       maze[li][ri].forEach((c, ci) => {
         if (c === "S") start = { x: li, y: ri, z: ci };
-        else if (c === "E") end = { x: li, y: ri, z: ci };
       });
     }
     getLine();
   }
 
-  // console.log(`start: ${JSON.stringify(start)}`);
-  // console.log(`end: ${JSON.stringify(end)}`);
-  // console.table(maze);
-
-  const shortestEscapeTime = BFS({ maze, start, end, L, R, C });
+  const shortest = BFS({ maze, start, L, R, C });
   const answer =
-    shortestEscapeTime === -1
-      ? "Trapped!"
-      : `Escaped in ${shortestEscapeTime} minute(s).`;
+    shortest === -1 ? "Trapped!" : `Escaped in ${shortest} minute(s).`;
 
   console.log(answer);
 }
 
-function BFS({ maze, start, end, L, R, C }) {
+function BFS({ maze, start, L, R, C }) {
   const ROCK = "#";
-  const EMPTY = ".";
 
-  const visited = Array(L)
-    .fill(0)
-    .map(() =>
-      Array(R)
-        .fill(0)
-        .map(() => Array(C).fill(false))
-    );
+  const visited = Array.from(Array(L), () =>
+    Array.from(Array(R), () => Array(C).fill(false))
+  );
   const q = [];
+  let head = 0;
 
   visited[start.x][start.y][start.z] = true;
   q.push({ ...start, time: 0 });
 
-  const dx = [1, 0, 0, -1, 0, 0];
-  const dy = [0, 1, 0, 0, -1, 0];
-  const dz = [0, 0, 1, 0, 0, -1];
+  const d = [
+    [1, 0, 0],
+    [-1, 0, 0],
+    [0, 1, 0],
+    [0, -1, 0],
+    [0, 0, 1],
+    [0, 0, -1],
+  ];
 
-  while (q.length > 0) {
-    const { x: cx, y: cy, z: cz, time: ctime } = q.shift();
+  while (head < q.length) {
+    const { x: cx, y: cy, z: cz, time: ctime } = q[head++];
 
-    for (let i = 0; i < 6; i++) {
-      const nx = cx + dx[i];
-      const ny = cy + dy[i];
-      const nz = cz + dz[i];
+    for (const [dx, dy, dz] of d) {
+      const nx = cx + dx;
+      const ny = cy + dy;
+      const nz = cz + dz;
       const ntime = ctime + 1;
 
       if (nx < 0 || ny < 0 || nz < 0 || nx >= L || ny >= R || nz >= C) continue;
