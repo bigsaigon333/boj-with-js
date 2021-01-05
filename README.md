@@ -26,6 +26,7 @@
      - 3차원 BFS - Flood Fill
      - https://www.acmicpc.net/problem/7569
    - [x] 5. 4179번 Fire!: 2021-01-05 Tue
+   - [x] 6. 1697번 Catch That Cow: 2021-01-05 Tue
 2. 응용문제
    - [ ] 18809번 Gaaaaaaaaaarden
      - 두 종류의 BFS에서 BFS를 돌 때 어느 하나가 독립적이지 않고 서로에게 영향을 주는 문제
