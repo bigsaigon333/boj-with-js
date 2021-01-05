@@ -7,6 +7,9 @@
 (※바킹독 블로그: [BaaaaaaaarkingDog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2))
 
 
+### 문제집: 0x03강 - 배열
+- [x] 3273 SumX: 2021-01-05 Tue
+
 ### 문제집: 0x05강 - BFS, DFS_구버전
 - [x] 5014 Elevator Trouble: 2020-12-29 Tue
 - [x] 6593 Dungeon Master: 2020-12-29 Tue 
@@ -15,3 +18,4 @@
 
 ### 문제집: 0x09강 - BFS
 - [x] 1926 그림: 2021-01-04 Mon
+
