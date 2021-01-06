@@ -10,13 +10,6 @@
 ## 문제집: 0x03강 - 배열
 - [x] 3273 SumX: 2021-01-05 Tue
 
-## 문제집: 0x05강 - BFS, DFS_구버전
-- [x] 5014 Elevator Trouble: 2020-12-29 Tue
-- [x] 6593 Dungeon Master: 2020-12-29 Tue 
-- [x] 13549 숨바꼭질 3: 2020-12-30 Wed
-- [x] 13913 숨바꼭질 4: 2021-01-02 Sat
-
-
 ### [[실전 알고리즘] 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649) 
 1. 필수예제
    - [x] 1. 1926번 그림: 2021-01-04 Mon
@@ -31,4 +24,8 @@
    - [ ] 18809번 Gaaaaaaaaaarden
      - 두 종류의 BFS에서 BFS를 돌 때 어느 하나가 독립적이지 않고 서로에게 영향을 주는 문제
 3. [문제집: 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649) 수록 문제
-   - [x] 1600번 말이 되고픈 원숭이: 2021-01-06 Wed 
+   - [x] 5014번 Elevator Trouble: 2020-12-29 Tue
+   - [x] 6593번 Dungeon Master: 2020-12-29 Tue 
+   - [x] 13549번 숨바꼭질 3: 2020-12-30 Wed
+   - [x] 13913번 숨바꼭질 4: 2021-01-02 Sat
+   - [x] 1600번 말이 되고픈 원숭이: 2021-01-06 Wed
