@@ -31,3 +31,4 @@
    - [ ] 18809번 Gaaaaaaaaaarden
      - 두 종류의 BFS에서 BFS를 돌 때 어느 하나가 독립적이지 않고 서로에게 영향을 주는 문제
 3. [문제집: 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649) 수록 문제
+   - [x] 1600번 말이 되고픈 원숭이: 2021-01-06 Wed 
