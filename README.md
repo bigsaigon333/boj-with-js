@@ -41,6 +41,7 @@
 ### [[실전 알고리즘] 0x0C강 - 백트래킹](https://blog.encrypted.gg/945?category=773649)
 1. 필수예제
    - [x] 1. 15649번 N과 M(1): 2021-01-08 Fri
+   - [x] 3. 1182번 부분수열의 합: 2021-01-09 Sat
 
 2. [문제집: 0x0C강 - 백트래킹](https://www.acmicpc.net/group/workbook/view/4490/24184) 수록 문제
    - [x] 1. 15650번 N과 M(2): 2021-01-08 Fri
