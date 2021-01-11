@@ -64,3 +64,8 @@
    - [x] 3. 12100번 2048(Easy): 2021-01-11 Mon
    - [x] 4. 15686번 치킨 배달: 2021-01-11 Mon
 2. [문제집: 0x0D강 - 시뮬레이션](https://www.acmicpc.net/group/workbook/view/4490/24602) 수록 문제
+
+
+### [[실전 알고리즘] 0x0E강 - 정렬 I](https://blog.encrypted.gg/955?category=773649)
+1. 필수예제
+  - [x] 1. 11728번 배열 합치기: 2021-01-11 Mon
