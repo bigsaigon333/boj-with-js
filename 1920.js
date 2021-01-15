@@ -4,6 +4,8 @@
  * Comment: 이분 탐색 필수예제 1. 나는 재귀로 풀었지만, 반복문으로도 풀 수 있다.
  * [begin:end): begin 포함, end 미포함
  * [first:last]: first포함, last포함
+ *
+ * 이분탐색 말고 dictionary 개념으로도 풀 수 있다.
  */
 
 const input = require("fs").readFileSync(0, "utf8").trim().split("\n");
