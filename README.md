@@ -92,6 +92,7 @@
   - [x] 1. 11047번 동전 0: 2021-01-14 Thu
   - [x] 2. 1931번 회의실 배정: 2021-01-14 Thu
   - [x] 3. 2217번 로프: 2021-01-14 Thu
+2. [문제집: 0x0A강 - 그리디_구버전](https://www.acmicpc.net/group/workbook/view/4490/12077) 수록 문제
 
 ### [[실전 알고리즘] 0x0B강 - 수학_구버전](https://blog.encrypted.gg/757?category=773649)
 1. 필수예제
@@ -101,9 +102,10 @@
   - [x] 4. 11050번 이항 계수 1: 2021-01-15 Fri
   - [x] 5. 11051번 이항 계수 2: 2021-01-15 Fri
   - [x] 6. 1676번 팩토리얼 0의 개수: 2021-01-Fri
-
+2. [문제집: 0x0B강 - 수학_구버전](https://www.acmicpc.net/group/workbook/view/4490/12147) 수록 문제
 
 ### [[실전 알고리즘] 0x0C강 - 이분탐색_구버전](https://blog.encrypted.gg/791?category=773649)
 1. 필수예제
   - [x] 1. 1920번 수 찾기: 2021-01-16 Sat
   - [x] 2. 10816번 숫자 카드 2: 2021-01-16 Sat
+2. [문제집: 0x0C강 - 이분탐색_구버전](https://www.acmicpc.net/group/workbook/view/4490/12997) 수록 문제
