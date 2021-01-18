@@ -109,3 +109,8 @@
   - [x] 1. 1920번 수 찾기: 2021-01-16 Sat
   - [x] 2. 10816번 숫자 카드 2: 2021-01-16 Sat
 2. [문제집: 0x0C강 - 이분탐색_구버전](https://www.acmicpc.net/group/workbook/view/4490/12997) 수록 문제
+
+### [[실전 알고리즘] 0x0D강 - 해쉬, 이진 검색 트리, 힙_구버전](https://blog.encrypted.gg/856?category=773649)
+1. 필수예제
+  - [x] 1. 1927번 최소 힙: 2021-01-18 Mon
+2. [문제집: 0x0D강 - 해쉬, 이진 검색 트리, 힙_구버전](https://www.acmicpc.net/group/workbook/view/4490/15120) 수록 문제
