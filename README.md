@@ -37,6 +37,7 @@
    - [x] 2. 11729번 하노이 탑 이동 순서: 2021-01-07 Thu
    - [x] 3. 1074번 Z: 2021-01-07 Thu
 2. [문제집: 0x0B강 - 재귀](https://www.acmicpc.net/group/workbook/view/4490/23786) 수록 문제
+   - [x] 1. 2630번 색종이 만들기: 2021-01-18 Mon
 
 ### [[실전 알고리즘] 0x0C강 - 백트래킹](https://blog.encrypted.gg/945?category=773649)
 1. 필수예제
