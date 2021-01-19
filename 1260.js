@@ -31,6 +31,7 @@ function dfs() {
 
     for (let i = adj[curr].length - 1; i >= 0; i--) {
       const next = adj[curr][i];
+      if (vis[next]) continue;
       s.push(next);
     }
   }
