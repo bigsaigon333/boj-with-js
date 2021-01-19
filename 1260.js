@@ -1,5 +1,6 @@
 /* 1260번 DFS와 BFS
  * URL: https://www.acmicpc.net/problem/1260
+ * Date: 2020-01-19 Tue 10:39:59 13m 10s
  * Comment: 그래프 필수예제2. 관념적인 DFS를 어떻게 구현할 것인지가 관건.
  * 비재귀방식
  */
