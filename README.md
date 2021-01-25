@@ -99,6 +99,7 @@
   - [x] 2. 1931번 회의실 배정: 2021-01-14 Thu
   - [x] 3. 2217번 로프: 2021-01-14 Thu
 2. [문제집: 0x0A강 - 그리디_구버전](https://www.acmicpc.net/group/workbook/view/4490/12077) 수록 문제
+  - [x] 1. 16120번 PPAP: 2021-01-25 Mon
 
 ### [[실전 알고리즘] 0x0B강 - 수학_구버전](https://blog.encrypted.gg/757?category=773649)
 1. 필수예제
