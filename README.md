@@ -133,7 +133,8 @@
 1. 필수예제
   - [x] 1. 11724번 연결 요소의 갯수: 2021-01-19 Tue
   - [x] 2. 1260번 DFS와 BFS: 2021-01-19 Tue
-
+2. [문제집: 0x0F강 - 그래프_구버전](https://www.acmicpc.net/group/workbook/view/4490/18846) 수록 문제
+   - [x] 1. 6118번 숨바꼭질: 2021-01-26 Tue
 
 ### [[실전 알고리즘] 0x10강 - 트리_구버전](https://blog.encrypted.gg/909?category=773649)
 1. 필수예제
