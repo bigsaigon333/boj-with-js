@@ -140,3 +140,9 @@
   - [x] 1. 1991번 트리 순회: 2021-01-25 Mon 
 2. [문제집: 0x10강 - 트리_구버전](https://www.acmicpc.net/group/workbook/view/4490/18943) 수록 문제
   - [x] 1. 2250번 트리의 높이와 너비: 2021--01-26 Tue
+
+
+### [[실전 알고리즘] 0x11강 - 위상 정렬_구버전](https://blog.encrypted.gg/910?category=773649)
+1. 필수예제
+  - [x] 1. 2252번 줄 세우기: 2021-01-26 Tue
+2. [문제집: 0x11강 - 위상 정렬_구버전](https://www.acmicpc.net/group/workbook/view/4490/19634) 수록 문제
