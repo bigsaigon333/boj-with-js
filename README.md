@@ -150,5 +150,11 @@
 
 ## [[실전 알고리즘] 0x11강 - 위상 정렬_구버전](https://blog.encrypted.gg/910?category=773649)
 1. 필수예제
-  - [x] 1. 2252번 줄 세우기: 2021-01-26 Tue
+   - [x] 1. 2252번 줄 세우기: 2021-01-26 Tue
 2. [문제집: 0x11강 - 위상 정렬_구버전](https://www.acmicpc.net/group/workbook/view/4490/19634) 수록 문제
+
+## [[실전 알고리즘] 0x12강 - 최소 신장 트리_구버전](https://blog.encrypted.gg/915?category=773649)
+1. 필수예제
+   - [x] 1. 1197번 최소 스패닝 트리: 2021-01-27 Wed
+2. [문제집: 0x12강 - 최소 신장 트리_구버전](https://www.acmicpc.net/group/workbook/view/4490/20034) 수록 문제
+
