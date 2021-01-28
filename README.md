@@ -159,3 +159,9 @@
    - [x] 1. 1197번 최소 스패닝 트리: 2021-01-27 Wed
 2. [문제집: 0x12강 - 최소 신장 트리_구버전](https://www.acmicpc.net/group/workbook/view/4490/20034) 수록 문제
    - [x] 1. 17472번 다리 만들기 2: 2021-01-27 Wed
+
+
+## [[실전 알고리즘] 0x13강 - 플로이드 알고리즘_구버전](https://blog.encrypted.gg/917?category=773649)
+1. 필수예제
+   - [x] 1. 11404번 플로이드: 2021-01-28 Thu
+2. [문제집: 0x13강 - 플로이드 알고리즘_구버전](https://www.acmicpc.net/group/workbook/view/4490/20093) 수록 문제
