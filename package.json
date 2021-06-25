@@ -1,0 +1,24 @@
+{
+  "name": "boj-with-js",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/bigsaigon333/Baekjoon-Online-Judge-with-only-javascript.git",
+  "author": {
+    "name": "Danny Kim",
+    "email": "likepeppermint@gmail.com",
+    "url": "https://velog.io/@bigsaigon333"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "prettier": "2.3.1"
+  }
+}
