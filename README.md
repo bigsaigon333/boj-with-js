@@ -33,9 +33,10 @@ https://www.acmicpc.net/workbook/view/7310
 
 ## 문제집: 0x07강 - 덱
 
-https://www.acmicpc.net/workbook/view/7311
+https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x07.md
 
 - [x] 1021 회전하는 큐: 2021-06-28 Mon
+- [x] 10866 덱: 2021-07-25 Sun
 
 ## [[실전 알고리즘] 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649)
 
