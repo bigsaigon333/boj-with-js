@@ -19,6 +19,24 @@ https://www.acmicpc.net/workbook/view/7307
 - [x] 1919 애너그램 만들기: 2021-06-26 Sat
 - [x] 3273 SumX: 2021-01-05 Tue
 
+## 문제집: 0x05강 - 스택
+
+https://www.acmicpc.net/workbook/view/7309
+
+- [x] 2493 탑: 2021-06-27 Sun
+
+## 문제집: 0x06강 - 큐
+
+https://www.acmicpc.net/workbook/view/7310
+
+- [x] 2164 카드2: 2021-06-27 Sun
+
+## 문제집: 0x07강 - 덱
+
+https://www.acmicpc.net/workbook/view/7311
+
+- [x] 1021 회전하는 큐: 2021-06-28 Mon
+
 ## [[실전 알고리즘] 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649)
 
 1. 필수예제

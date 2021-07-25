@@ -4,16 +4,9 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  extends: [
-    "airbnb-base",
-    "eslint:recommended",
-    "plugin:import/recommended",
-    "prettier",
-  ],
-  plugins: ["import"],
+  extends: ["eslint:recommended", "prettier"],
+  plugins: [],
   parserOptions: {
     ecmaVersion: 12,
   },
-
-  rules: {},
 };
