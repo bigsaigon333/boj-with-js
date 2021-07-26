@@ -4,7 +4,6 @@
 
 <br />
 
-
 ## 1. 바킹독의 실전 알고리즘
 
 실전 알고리즘 강좌로 유명한 BaaaaaaaaaaarkingDog(이하 "바킹독")의 블로그 글들을 통해 알고리즘 공부를 하고 있습니다.
@@ -25,7 +24,6 @@
 
 <br />
 
-
 ## 3. 풀이문제 정리
 
 ### [문제집: 0x03강 - 배열](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x03.md)
@@ -33,30 +31,20 @@
 - [x] 1919 애너그램 만들기: 2021-06-26 Sat
 - [x] 3273 SumX: 2021-01-05 Tue
 
-
-
 ### [문제집: 0x04강 - 연결리스트](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x04.md)
-
-
 
 ### [문제집: 0x05강 - 스택](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x05.md)
 
 - [x] 2493 탑: 2021-06-27 Sun
 
-
-
 ### [문제집: 0x06강 - 큐](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x06.md)
 
 - [x] 2164 카드2: 2021-06-27 Sun
-
-
 
 ### [문제집: 0x07강 - 덱](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x07.md)
 
 - [x] 1021 회전하는 큐: 2021-06-28 Mon
 - [x] 10866 덱: 2021-07-25 Sun
-
-
 
 ### [[실전 알고리즘] 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649)
 
