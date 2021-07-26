@@ -2,7 +2,7 @@
 
 ## 1. 스택
 
-- 스택은 `[0, s.length)` 인 배열으로 나타낸다.
+- 스택은 `[0, s.length)` 인 배열이다.
 
 ### 스택의 시그니쳐
 
@@ -51,7 +51,7 @@ const isEmpty = s.length === 0;
 console.log(isEmpty); // false;
 
 // while문: stack을 tail부터 순회
-while(s.length > 0) {
+while (s.length > 0) {
   const el = s.pop();
   /* 중략 */
 }
@@ -59,9 +59,9 @@ while(s.length > 0) {
 
 ## 2. 큐
 
-- 큐는 `[head, s.length)` 인 배열으로 나타낸다.
+- 큐는 `[0, q.length)`인 배열에서 `[head, q.length)` 부분으로 나타낸다.
 
-- `pop_front`의 시간복잡도를 `O(1)`으로 하기 위하여 변수 `head`로 `back`을 가리킨다.
+- `pop_front`의 시간복잡도를 `O(1)`으로 하기 위하여 변수 `head`로 `front`를 가리킨다.
 
 ### 큐 시그니쳐
 
@@ -91,13 +91,12 @@ q.length - head;
 q.length - head === 0;
 ```
 
-
 ### 큐 사용예시
 
 ```jsx
-
 // debug용 helper 함수
-const print = (arr, head = 0, tail = arr.length) => console.log(arr.slice(head, tail));
+const print = (arr, head = 0, tail = arr.length) =>
+  console.log(arr.slice(head, tail));
 
 const q = [1, 2, 3];
 let head = 0;
@@ -135,23 +134,20 @@ const isEmpty = q.length - head === 0;
 console.log(isEmpty); // false;
 
 // while문: queue를 head부터 순회
-while(q.length - head > 0) {
+while (q.length - head > 0) {
   const el = q[head++];
   /* 중략 */
 }
 ```
 
-
 ## 3. 덱
 
-- 덱은 `[head, dq.length)` 인 배열으로 나타낸다.
+- 덱은 `[0, dq.length)`인 배열에서 `[head, dq.length)` 부분으로 나타낸다.
 
-- `pop_front`의 시간복잡도를 `O(1)`으로 하기 위하여 변수 `head`로 `back`을 가리킨다.
-
-- 큐와의 차이: `push_back`이 `MX`번 호출될 수 있기에, `head`의 초기값을 `MX`로 한다.
-
+  `push_back`이 `MX`번 호출될 수 있기에, `head`의 초기값을 `MX`로 한다.
   (※ `MX`는 문제에서 주어지는 덱의 최대 길이를 의미한다)
 
+- `pop_front`의 시간복잡도를 `O(1)`으로 하기 위하여 변수 `head`로 `front`를 가리킨다.
 
 ### 시그니쳐
 
@@ -189,19 +185,17 @@ dq.length - head === 0;
 
 ### 덱 사용예시
 
-
 ```jsx
-
 // debug용 helper 함수
-const print = (arr, head, tail) => console.log(arr.slice(head, tail));
+const print = (arr, head = 0, tail = arr.length) =>
+  console.log(arr.slice(head, tail));
 
 const MX = 10_000;
 const dq = [];
 let head = MX;
 dq.length = head;
 
-dq.push(1,2,3);
-
+dq.push(1, 2, 3);
 
 // push_back: tail에 원소를 추가
 dq.push(4);
@@ -241,13 +235,13 @@ const isEmpty = dq.length - head === 0;
 console.log(isEmpty); // false;
 
 // while문: deque head부터 순회
-while(dq.length - head > 0) {
+while (dq.length - head > 0) {
   const el = dq[head++];
   /* 중략 */
 }
 
 // while문: deque tail부터 순회
-while(dq.length - head > 0) {
+while (dq.length - head > 0) {
   const el = dq.pop();
   /* 중략 */
 }
