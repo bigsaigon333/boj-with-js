@@ -2689,6 +2689,11 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
+solve.io@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/solve.io/-/solve.io-0.0.1.tgz#609274f13d2dd12d335e3a2621424b73db3113dd"
+  integrity sha512-eI7unFS/L4fP7hYUWnm6PdLEfmqlX2E+1OV+UlX95Mxzv4X06dnCAphA5adA++JDyTU2uZSzoLYzddTBBW0BTA==
+
 source-map-support@^0.5.6:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"

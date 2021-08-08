@@ -1,5 +1,7 @@
 const path = require("path");
-const solve = require("../../lib/solve")(path.resolve(__dirname, "10866.js"));
+const genSolve = require("solve.io");
+
+const solve = genSolve(path.resolve(__dirname, "10866.js"));
 
 test("ex1", async () => {
   const input = `15
