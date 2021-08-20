@@ -48,6 +48,8 @@
 
 ### [[실전 알고리즘] 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649)
 
+[개정후 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x09.md)
+
 1. 필수예제
 
    - [x] 1. 1926번 그림: 2021-01-04 Mon / 2021-08-08 Sun
@@ -59,6 +61,7 @@
    - [x] 5. 4179번 Fire!: 2021-01-05 Tue
    - [x] 6. 1697번 Catch That Cow: 2021-01-05 Tue
    - [x] 7. 1012번 유기농 배추
+   - [x] 8. 2667번 단지번호붙이기: 2021-08-20 Fri
 
 2. 응용문제
    - [ ] 18809번 Gaaaaaaaaaarden
