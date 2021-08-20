@@ -88,9 +88,7 @@ const BFS = (board, visited, N, i, j) => {
   return area;
 };
 
-const start = (board, visited, N) => {
-  const areas = [];
-
+const start = function* (board, visited, N) {
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < N; j++) {
       if (visited[i][j]) continue;
@@ -98,11 +96,9 @@ const start = (board, visited, N) => {
 
       visited[i][j] = true;
 
-      areas.push(BFS(board, visited, N, i, j));
+      yield BFS(board, visited, N, i, j);
     }
   }
-
-  return areas;
 };
 
 const [N, ...input] = require("fs").readFileSync(0, "utf-8").trim().split("\n");
@@ -111,8 +107,10 @@ const board = input.map((line) => line.split("").map(Number));
 
 const visited = Array.from({ length: N }, () => []);
 
-const areas = start(board, visited, N);
-
-console.log(areas.length);
-
-areas.sort((a, b) => a - b).forEach((a) => console.log(a));
+go(
+  start(board, visited, N),
+  takeAll,
+  (arr) => arr.sort((a, b) => a - b),
+  (a) => [a.length, ...a],
+  map(console.log)
+);
