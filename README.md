@@ -61,11 +61,12 @@
    - [x] 5. 4179번 Fire!: 2021-01-05 Tue
    - [x] 6. 1697번 Catch That Cow: 2021-01-05 Tue
    - [x] 7. 1012번 유기농 배추
-   - [x] 8. 2667번 단지번호붙이기: 2021-08-20 Fri
 
 2. 응용문제
+
    - [ ] 18809번 Gaaaaaaaaaarden
      - 두 종류의 BFS에서 BFS를 돌 때 어느 하나가 독립적이지 않고 서로에게 영향을 주는 문제
+
 3. [문제집: 0x09강 - BFS](https://blog.encrypted.gg/941?category=773649) 수록 문제
    - [x] 5014번 Elevator Trouble: 2020-12-29 Tue
    - [x] 6593번 Dungeon Master: 2020-12-29 Tue
@@ -73,6 +74,8 @@
    - [x] 13913번 숨바꼭질 4: 2021-01-02 Sat
    - [x] 1600번 말이 되고픈 원숭이: 2021-01-06 Wed
    - [x] 3197번 labudovi: 2021-01-06 Wed
+   - [x] 2667번 단지번호붙이기: 2021-08-20 Fri
+   - [x] 2146번 다리 만들기: 2021-08-21 Sat
 
 ### [[실전 알고리즘] 0x0B강 - 재귀](https://blog.encrypted.gg/943?category=773649)
 
