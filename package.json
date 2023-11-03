@@ -8,7 +8,6 @@
     "url": "https://velog.io/@bigsaigon333"
   },
   "license": "MIT",
-  "private": false,
   "scripts": {
     "lint": "eslint --fix .",
     "format": "prettier --write ."
@@ -18,7 +17,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^24.4.0",
     "jest": "^27.0.6",
-    "prettier": "2.3.1",
-    "solve.io": "^0.0.1"
-  }
+    "prettier": "2.3.1"
+  },
+  "packageManager": "yarn@4.0.1"
 }
