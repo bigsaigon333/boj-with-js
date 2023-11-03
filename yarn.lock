@@ -452,6 +452,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bigsaigon333/solve.io@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@bigsaigon333/solve.io@npm:0.0.4"
+  dependencies:
+    clipanion: "npm:4.0.0-rc.2"
+  bin:
+    solve.io: dist/index.cjs
+  checksum: 44ade390517c74679fb40393dfccc143bc9b200ea640c6b10328b425f45c8b3e900949b642ee40bf8124fb9ff33a1a5828b59f2b96ee71cd95322a2b5dc9d742
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^0.4.2":
   version: 0.4.2
   resolution: "@eslint/eslintrc@npm:0.4.2"
@@ -1272,6 +1283,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "boj-with-js@workspace:."
   dependencies:
+    "@bigsaigon333/solve.io": "npm:^0.0.4"
     eslint: "npm:^7.29.0"
     eslint-config-prettier: "npm:^8.3.0"
     eslint-plugin-jest: "npm:^24.4.0"
@@ -1447,6 +1459,17 @@ __metadata:
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
   checksum: 1f90262d5f6230a17e27d0c190b09d47ebe7efdd76a03b5a1127863f7b3c9aec4c3e6c8bb3a7bbf81d553d56a1fd35728f5a8ef4c63f867ac8d690109742a8c1
+  languageName: node
+  linkType: hard
+
+"clipanion@npm:4.0.0-rc.2":
+  version: 4.0.0-rc.2
+  resolution: "clipanion@npm:4.0.0-rc.2"
+  dependencies:
+    typanion: "npm:^3.8.0"
+  peerDependencies:
+    typanion: "*"
+  checksum: b0a9e113879862823225e5395c93acd73e013f599578c25ee3bd87a558fd4c0385a58dfa0ae42bf981e324cecde5ea4792501efbe2459324ba5292c1cd1171a9
   languageName: node
   linkType: hard
 
@@ -4442,6 +4465,13 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 02f19e458ec78ead8fffbf711f834ad8ecd2cc6ade4ec0320790713dccc0a412b99e7fd907c4cda2a1dc602c75db6f12e0108e87a5afad4b2f9e90a24cabd5a2
+  languageName: node
+  linkType: hard
+
+"typanion@npm:^3.8.0":
+  version: 3.14.0
+  resolution: "typanion@npm:3.14.0"
+  checksum: 8b03b19844e6955bfd906c31dc781bae6d7f1fb3ce4fe24b7501557013d4889ae5cefe671dafe98d87ead0adceb8afcb8bc16df7dc0bd2b7331bac96f3a7cae2
   languageName: node
   linkType: hard
 
